@@ -17,6 +17,10 @@
 
 <?php
 
+/**
+ * Este bloco verifica se um CEP foi enviado via POST. Se sim, ele executa o processo
+ * de busca de endereço e exibe os resultados.
+ */
 if(!empty($_POST['cep'])){
 	
 	$cep = $_POST['cep'];
